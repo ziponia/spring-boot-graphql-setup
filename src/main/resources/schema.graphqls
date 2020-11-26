@@ -1,0 +1,14 @@
+type Query {
+    _version: String!
+}
+
+type Mutation {
+    _empty: String
+}
+
+### Post
+type Post {
+    id: ID!
+    title: String!
+    content: String
+}

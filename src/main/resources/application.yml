@@ -1,0 +1,8 @@
+graphql:
+  servlet:
+    corsEnabled: true
+    enabled: true
+    context-setting: per_query_with_instrumentation
+    exception-handlers-enabled: true
+    mapping: /graphql
+
